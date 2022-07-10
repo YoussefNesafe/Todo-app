@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container .todo {
+  max-width: 900px;
+  min-width: 250px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.todo .inputDiv{
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.todo .inputDiv input {
+  width: 90%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+.todo .itemsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px
+}
+.todo .itemsContainer h4 {
+  margin: 20px auto;
+  font-size: 1.2rem;
+}
+button {
+  padding : 5px;
+  width: 150px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: red;
+  color: #fff;
+  border: none;
+}
+.success{
+  color: green;
+}
+.error{
+  color: red;
+}
